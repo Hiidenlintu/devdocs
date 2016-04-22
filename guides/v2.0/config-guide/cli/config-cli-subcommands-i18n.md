@@ -296,7 +296,7 @@ Similar to preceding example, generate a .csv file, but instead of specifying a 
 
 1.	Collect phrases from your module:
 
-		magento i18n:collect-phrases -o "/var/www/html/magento2/xx_YY.csv" -m
+		magento i18n:collect-phrases -o "/var/www/html/magento2/xx_YY.csv" -m /var/www/html/magento2/
 
 	<div class="bs-callout bs-callout-info" id="info">
   	<p>The .csv file name must <em>exactly match</em> the locale, including the characters' case.</p>
